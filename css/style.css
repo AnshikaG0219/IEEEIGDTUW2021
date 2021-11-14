@@ -1,10 +1,10 @@
 html {
   height: 100% !important;
 }
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&display=swap');
-*{
-  font-family: 'Roboto', sans-serif;
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&display=swap");
+* {
+  font-family: "Roboto", sans-serif;
 }
 
 body {
@@ -15,10 +15,6 @@ body {
   /*background-image: url("https://github.com/AakankshaJha1/IEEE_IGDTUW/blob/main/img/ieee-bg-2.png?raw=true") ;*/
   background-color: #212121;
   margin: auto;
-}
-.button1 {background-color: black;}
-.button1:hover{
-  color :green;
 }
 
 body .body {
@@ -36,9 +32,9 @@ body .body {
 }
 
 .page {
-  overflow: hidden;
   /* background-color: #fff; */
   padding: 50px 0;
+  margin-top: 35vw;
 }
 
 .btn {
@@ -55,10 +51,10 @@ body .body {
 /* Begin Fonts */
 body {
   /*background-image: url("https://github.com/AakankshaJha1/IEEE_IGDTUW/blob/main/img/ieee-bg-2.png?raw=true") ;*/
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-size: 80%;
-    background-attachment: fixed;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-size: 80%;
+  background-attachment: fixed;
 }
 
 h1,
@@ -102,7 +98,7 @@ p {
   width: 90%;
   text-align: center;
 }
-.about{
+.about {
   margin-bottom: 2rem;
 }
 .about .row {
@@ -121,23 +117,23 @@ p {
   align-items: center;
   height: 100%;
 }
-.about-details{
-    text-align: justify;
-    background-color: #212121ad;
-    border-radius: 20px;
+.about-details {
+  text-align: justify;
+  background-color: #212121ad;
+  border-radius: 20px;
 }
-.about-details:hover{
-    background-color: #32e0c3a1;
-    color: #212121;
+.about-details:hover {
+  background-color: #32e0c3a1;
+  color: #212121;
 }
 
-@media screen and (max-width:1024px) {
-    .row h2{
-        text-align: center !important;
-    }
-    .about-logo img{
-        margin: auto 20% !important;
-    }    
+@media screen and (max-width: 1024px) {
+  .row h2 {
+    text-align: center !important;
+  }
+  .about-logo img {
+    margin: auto 20% !important;
+  }
 }
 #wie-img {
   height: 375px;
@@ -202,7 +198,6 @@ section {
   background-size: cover;
 }
 
-
 /* ===== Begin text colors ===== */
 .text-main {
   color: #363940;
@@ -225,14 +220,14 @@ section {
 .navbar-brand {
   font-size: 24px;
   font-weight: 600;
-  font-family: 'Rubik', sans-serif;
+  font-family: "Rubik", sans-serif;
   letter-spacing: 4px;
   -webkit-transition: all 0.2s ease-in-out;
   -moz-transition: all 0.2s ease-in-out;
   -o-transition: all 0.2s ease-in-out;
   -ms-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
-} 
+}
 
 /* Navbar links */
 .navbar-nav > li > a {
@@ -490,13 +485,13 @@ a.rotate-box-2:hover {
 .rotate-box-1 .rotate-box-info {
   padding-left: 60px;
 }
-.rotate-box-1-wrapper{
+.rotate-box-1-wrapper {
   margin: 2rem auto;
 }
 
-.rotate-box-1-wrapper .row{
-    background-color: #212121ad;
-    border-radius: 20px;
+.rotate-box-1-wrapper .row {
+  background-color: #212121ad;
+  border-radius: 20px;
 }
 
 /* End rotate box-1 */
@@ -977,8 +972,14 @@ ul.social-list li a i {
 }
 
 /*Widget1: Useful Links*/
+.useful-link h4{
+  text-align: center !important;
+}
 ul.imp-links {
   margin-top: 15px;
+  width: 60%;
+  margin: auto;
+  text-align: center;
 }
 
 ul.imp-links li {
@@ -989,30 +990,30 @@ ul.imp-links li a {
   text-decoration: none;
   color: #fff;
 }
-.imp-links a:hover{
-    color: #0D7377;
+.imp-links a:hover {
+  color: #0d7377;
 }
 
 /* ==== Start Footer ===== */
-.media-icons{
-    margin-top: 1rem;
+.media-icons {
+  margin-top: 1rem;
 }
-.media-icons a{
-    margin-right: 0.5rem;
+.media-icons a {
+  margin-right: 0.5rem;
 }
-.media-icons i{
-    font-size: 1.6rem;
-    color: #fff;
+.media-icons i {
+  font-size: 1.6rem;
+  color: #fff;
 }
-.media-icons i:hover{
-    color: #32E0C4;
+.media-icons i:hover {
+  color: #32e0c4;
 }
-.contact-email{
-    color: #fff;
+.contact-email {
+  color: #fff;
 }
-.contact-email:hover{
-    color: #0D7377;
-    text-decoration: none;
+.contact-email:hover {
+  color: #0d7377;
+  text-decoration: none;
 }
 /* ===== End footer ===== */
 
@@ -1253,22 +1254,43 @@ p.subtitle {
 
 /* ===== End buttons ===== */
 
-@media screen and (max-width:1024px) {
-    body{
-        background-size: cover;
-        /* background-size: 80%; */
-    }
+@media screen and (max-width: 1024px) {
+  body {
+    background-size: cover;
+    /* background-size: 80%; */
+  }
 }
-.membership-link{
+.membership-link {
   background-color: #363940;
   padding: 0.5rem 2rem;
   border-radius: 4px;
   text-transform: uppercase;
-  font-family: 'Rubik' sans-serif;
+  font-family: "Rubik" sans-serif;
   font-weight: 600;
 }
-.membership-link:hover{
-  background-color: #32E0C4;
+.membership-link:hover {
+  background-color: #32e0c4;
   color: #212121;
   text-decoration: none;
+}
+.calendar {
+  width: 100vw;
+  height: 100%;
+}
+.calendar iframe {
+  border: solid 1px #777;
+  width: 60vw;
+  height: 60vw;
+}
+.button1 {
+  background-color: #171717;
+  border: none;
+  border-radius: 2px;
+}
+
+@media screen and (max-width: 1024px) {
+  .calendar iframe {
+    width: 90vw;
+    height: 90vw;
+  }
 }
